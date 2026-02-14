@@ -2,7 +2,7 @@
 
 This repository contains a Go implementation of the card game "Buraco" (a popular rummy-like game). The project provides the core game logic, table handling, card management, and a small HTTP API to interact with the game.
 
-## Contents
+## Contents <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/cbec1c5e-eac8-4ef6-a9ab-b1ae4435ca3b" />
 
 - `main.go` - application entry point.
 - `api.go` - minimal HTTP API endpoints for interacting with games.
