@@ -9,7 +9,11 @@ func main() {
 	// Define a rota
 	http.HandleFunc("/minha-mao", ListarMaoHandler)
 
-	fmt.Println("Servidor de Buraco rodando em http://localhost:8080/minha-mao")
+	// Rota nova para Descartar
+	http.HandleFunc("/descartar", DescartarCartaHandler)
+
+	fmt.Println("Servidor rodando em http://localhost:8080")
+	http.ListenAndServe(":8080", nil)
 
 	// Sobe o servidor (Listen and Serve)
 	err := http.ListenAndServe(":8080", nil)

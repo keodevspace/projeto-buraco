@@ -1,0 +1,12 @@
+### Testar a listagem da mão (GET)
+GET http://localhost:8080/minha-mao
+
+###
+
+### Testar o descarte de uma carta (POST)
+POST http://localhost:8080/descartar
+Content-Type: application/json
+
+{
+    "indice": 5
+}
